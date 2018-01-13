@@ -1,7 +1,7 @@
 ---
 title: 'Index'
-studio: true
-lab: false
+studio: false
+lab: true
 week_assigned: 1
 week_due: 2
 ---
