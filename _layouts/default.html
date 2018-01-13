@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="/assets/css/main.css">
+
+        <title>Core Interaction</title>
+        
+    </head>
+
+    <body>
+
+        <header class="Header">
+
+            <a href="/" class="Header-link">
+
+                <span class="Header-title">
+                    <span class="Header-span">Core Interaction</span>
+                    <span class="Header-span">Spring 2018</span>
+                </span>
+
+                <span class="Header-arrow">
+                    ↑
+                </span>
+            
+            </a>
+            
+            <nav class="Nav {% if page.url == "/" %}is-home{% endif %}">
+            
+                <ul class="Nav-list">
+
+                    {% for node in site.pages %}
+                    {% if node.group == 'nav' %}
+
+                        <li class="Nav-item {% if page.url == node.url %} is-active {% endif %}">
+
+                            <a href="{{ node.url }}" class="Nav-link">
+                                {{ node.title }}
+                            </a>
+
+                        </li>
+                        
+                    {% endif %}
+                    {% endfor %}
+
+                </ul>
+            
+            </nav>
+
+        </header>
+
+        <main class="Main">
+
+            {{ content }}
+
+        </main>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+        <script src="/assets/js/main.js"></script>
+        
+    </body>
+
+</html>

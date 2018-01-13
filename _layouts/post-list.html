@@ -1,0 +1,78 @@
+--- 
+layout: default
+---
+
+<header class="PageHeader PageHeader--postList">
+
+    <h1 class="PageHeader-title">
+        {% if page.type == 'assignments' %} 
+            Assignments
+        {% elsif page.type == 'lectures' %}
+            Lectures
+        {% endif %}
+    </h1>
+
+    <div class="PageHeader-toggle">
+
+        <span class="PageHeader-toggleItem is-active" data-class="studio">(Studio)</span><!--
+
+        --><span class="PageHeader-toggleItem is-active" data-class="lab">(Lab)</span>
+
+    </div>
+
+</header>
+
+<section class="PageContent PageContent--postList">
+
+
+    <ul class="PostList PostList--{{ page.type }}">
+
+        {% if page.type == 'assignments' %}
+            {% assign posts = site.assignments %}
+        {% elsif page.type == 'lectures' %}
+            {% assign posts = site.lectures %}
+        {% endif %}
+
+        {% for post in posts %}
+
+        {% if post.studio %} 
+            {% assign class = 'studio' %}
+        {% elsif post.lab %} 
+            {% assign class = 'lab' %}
+        {% endif %}
+
+        <li class="PostList-item is-active" data-class="{{ class }}">
+
+            <a href="{{ post.url }}" class="PostList-link">
+
+                <div class="PostList-meta">
+
+                    <span class="PostList-label PostList-label--duration">
+                    
+                        {% if page.type == 'assignments' %} 
+                            Week {{ post.week_assigned }} → Week {{ post.week_due }} 
+                        {% elsif page.type == 'lectures' %} 
+                            Week {{ post.week_posted}}
+                        {% endif %}
+                    
+                    </span>
+                    
+                    <span class="PostList-label PostList-label--class">
+                        ({{ class }})
+                    </span>
+
+                </div>                
+
+                <span class="PostList-title">
+                    {{ post.title }}
+                </span>
+
+            </a>
+
+        </li>
+
+        {% endfor %}
+
+    </ul>
+
+</section>

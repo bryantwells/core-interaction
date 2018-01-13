@@ -1,0 +1,26 @@
+- name: John Doe
+  url: http://www.google.com
+
+- name: Jane Doe
+  url: https://www.nytimes.com/
+
+- name: Neely Hoekstra
+  url: https://www.moma.org/
+
+- name: Vivan Bottoms
+  url: https://www.newmuseum.org/
+
+- name: Damian Buscemi
+  url: https://2.cargocollective.com/
+
+- name: Malika Kohan
+  url: http://www.google.com
+
+- name: Ryan Sroka
+  url: https://www.moma.org/
+
+- name: Alysa Charbonneau
+  url: https://2.cargocollective.com/
+
+- name: Vivan Bottoms
+  url: https://www.newmuseum.org/

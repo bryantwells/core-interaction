@@ -1,0 +1,40 @@
+---
+---
+
+$mobile-breakpoint: 950px;
+$max-body-width: 700px;
+
+$base-font-size: 18px;
+$sm-font-size: .8rem;
+$lg-font-size: 2.25rem;
+
+$primary-font-family: Arial, sans-serif;
+$secondary-font-family: "Source Code Pro", courier;
+
+$h1-font: normal $lg-font-size $primary-font-family;
+$h2-font: normal 1.5rem $primary-font-family;
+$h3-font: bold 1rem $primary-font-family;
+$h4-font: normal 1rem $primary-font-family;
+
+$primary-color: black;
+$secondary-color: WhiteSmoke;
+$code-color: #f86c3a;
+$link-color: #0366d6;
+$hover-color: black;
+$background-color: white;
+
+$sm-padding: 1rem;
+$md-padding: 3rem;
+
+$sm-margin: 1rem;
+$md-margin: 1.5rem;
+$lg-margin: 3rem;
+
+$thin-border: 1px solid black;
+
+// IMPORTS
+
+@import 'fonts.scss';
+@import 'base.scss';
+@import 'components.scss';
+@import 'page-content.scss';

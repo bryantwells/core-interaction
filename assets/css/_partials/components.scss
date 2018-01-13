@@ -1,0 +1,283 @@
+// HEADER
+// ----------------------------------
+
+.Header {
+    flex: 0 0 25%;
+    display: flex;
+    flex-direction: column;
+    border-right: var(--thin-border);
+    min-height: 100%;
+    font-family: var(--secondary-font-family);
+
+    @media (max-width: #{ $mobile-breakpoint }) {
+        min-height: initial;
+        flex: 0 0 100%;
+        border-right: none;
+    }
+}
+
+    .Header-link {
+        display: flex;
+        flex: 0 0 auto;
+        text-decoration: none;
+        padding: var(--sm-padding);
+        min-height: 6rem;
+        border-bottom: var(--thin-border);
+
+        &:hover {
+            background-color: var(--hover-color);
+            color: var(--background-color);
+        }
+
+        @media (max-width: #{ $mobile-breakpoint }) {
+            min-height: initial;
+            background-color: var(--hover-color);
+            color: var(--background-color);
+        }
+    }
+
+    .Header-title {
+        display: block;
+        flex: 1 0 auto;
+    }
+
+    .Header-span  {
+        display: block;
+    }
+
+    .Header-arrow  {
+        color: var(--background-color);
+    }
+
+
+// NAV    
+// ----------------------------------
+
+.Nav {
+    flex: 0 0 auto;
+    padding: var(--sm-padding);
+
+    @media (max-width: #{ $mobile-breakpoint }) {
+        border-bottom: var(--thin-border);
+    }
+
+    &:not(.is-home) {
+
+        @media (max-width: #{ $mobile-breakpoint }) {
+            display: none;
+        }
+    }
+}
+
+    .Nav-item {
+        display: flex;
+
+        &.is-active {
+
+            .Nav-link::before {
+                content: '●';
+            }
+        }
+    }
+
+    .Nav-link {
+        flex: 1 0 auto;
+        text-decoration: none;
+
+        &::before {
+            content: '○';
+            display: inline-block;
+            margin-right: .5em;
+        }
+
+        &:hover::before {
+            content: '●';
+        }
+    }
+
+
+// STUDENT LIST
+// ----------------------------------
+
+.TimeStamp {
+    color: var(--code-color);
+}
+
+// MAIN
+// ----------------------------------
+
+.Main {
+    flex: 0 0 75%;
+    height: 100%;
+    overflow-y: scroll;
+
+    @media (max-width: #{ $mobile-breakpoint }) {
+        flex: 0 0 100%;
+        height: auto;
+    }
+}
+
+// PAGE HEADER
+// ----------------------------------
+
+.PageHeader {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: var(--thin-border);
+    min-height: 6rem;
+    font-family: var(--secondary-font-family);
+    padding: var(--sm-padding);
+
+    @media (max-width: #{ $mobile-breakpoint }) {
+        min-height: initial;
+    }
+}
+
+.PageHeader--home {
+    padding: 0;
+}
+
+.PageHeader--postDetail {
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+
+    .PageHeader-title {
+        flex: 0 0 100%;
+        font-size: var(--lg-font-size);
+        font-family: var(--primary-font-family);
+    }
+
+    .PageHeader-meta {
+        flex: 0 0 100%;
+        display: flex;
+    }
+
+    .PageHeader-label--duration {
+        flex: 1 0 auto;
+    }
+}
+
+    .PageHeader-label {
+        text-transform: capitalize;
+    }
+
+    .PageHeader-title {
+        font-size: var(--base-font-size);
+        font-weight: normal;
+        flex: 1 0 auto;
+    }
+
+    .PageHeader-toggleItem {
+        color: var(--code-color);
+        cursor: pointer;
+        opacity: 0.25;
+        user-select: none;
+
+        &.is-active {
+            opacity: 1;
+        }
+
+        &:hover {
+            opacity: 1;
+            color: var(--primary-color);
+        }
+    }
+
+    .PageHeader-classInfo {
+        padding: var(--sm-padding);
+        flex: 0 0 50%;
+
+        @media (max-width: #{ $mobile-breakpoint }) {
+            flex: 0 0 100%;
+        }
+    }
+
+
+// POST LIST
+// ----------------------------------
+
+.PostList-item {
+    border-bottom: var(--thin-border);
+    display: none;
+    
+    &:hover {
+        background-color: var(--hover-color);
+
+        .PostList-link {
+            color: var(--background-color);
+        }    
+    }
+
+    &.is-active {
+        display: block;
+    }
+}
+
+    .PostList-link {
+        display: flex;
+        flex-wrap: wrap;
+        padding: var(--sm-padding);
+        text-decoration: none;
+    }
+
+    .PostList-meta {
+        flex: 0 0 100%;
+        display: flex;
+        text-transform: capitalize;
+        font-family: var(--secondary-font-family);
+    }
+
+    .PostList-label--duration {
+        flex: 1 0 auto;
+    }
+
+    .PostList-title {
+        font-size: var(--lg-font-size);
+    }
+
+
+// STUDENT LIST
+// ----------------------------------
+
+.StudentList {
+    font-size: var(--lg-font-size);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .StudentList-item {
+        flex: 0 0 50%;
+        border-bottom: var(--thin-border);
+
+        &:nth-child(odd) {
+            border-right: var(--thin-border);
+        }
+
+        @media (max-width: #{ $mobile-breakpoint }) {
+            flex: 0 0 100%;
+            border-right: none !important;
+        }
+    }
+
+    .StudentList-link {
+        text-decoration: none;
+        padding: var(--sm-padding);
+        padding-right: 1.5rem;
+        display: flex;
+        height: 100%;
+
+        &:hover {
+            background-color: var(--hover-color);
+            color: var(--background-color);
+        }
+    }
+
+    .StudentList-studentName {
+        flex: 1 1 auto;
+    }
+
+    .StudentList-favicon {
+        align-self: center;
+        height: 20px;
+        width: 20px;
+    }

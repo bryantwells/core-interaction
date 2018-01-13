@@ -1,0 +1,45 @@
+--- 
+layout: default
+---
+
+<header class="PageHeader PageHeader--home">
+
+    <section class="PageHeader-classInfo">
+        Studio
+        <br>9:00 — 11:40am (T,F)
+        <br><a href="hermonn@newschool.edu">Nitzan Hermon</a>
+    </section>
+
+    <section class="PageHeader-classInfo">
+        Lab
+        <br>9:00 — 11:40am (TH)
+        <br><a href="wellsb@newschool.edu">Bryant Wells</a>
+    </section>
+
+</header>
+
+<section class="PageContent">
+
+    <ul class="StudentList">
+
+        {% for student in site.data.students %}
+
+        <li class="StudentList-item">
+
+            <a class="StudentList-link" href="{{ student.url }}" target="_blank">
+
+                <span class="StudentList-studentName">
+                    {{ student.name }}
+                </span>
+
+                <img class="StudentList-favicon" src="{{ student.url }}/favicon.ico">
+                
+            </a>
+
+        </li>
+
+        {% endfor %}
+
+    </ul>
+
+</section>

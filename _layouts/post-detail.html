@@ -1,0 +1,41 @@
+--- 
+layout: default
+---
+
+<header class="PageHeader PageHeader--postDetail">
+
+    <h1 class="PageHeader-title">
+        {{ page.title }}
+    </h1>
+
+    <div class="PageHeader-meta">
+
+        <span class="PageHeader-label PageHeader-label--duration">
+        
+            {% if page.type == 'assignment' %} 
+                Week {{ page.week_assigned }} → Week {{ page.week_due }}
+            {% elsif page.type == 'lecture' %} 
+                Week {{ page.week_posted}}
+            {% endif %}
+        
+        </span>
+        
+        <span class="PageHeader-label PageHeader-label--class">
+        
+            {% if page.studio %} 
+                Studio {{ page.type }} 
+            {% elsif page.lab %} 
+                Lab {{ page.type }} 
+            {% endif %}
+        
+        </span>
+
+    </div>
+
+</header>
+
+<section class="PageContent PageContent--general">
+
+    {{ content }}
+
+</section>

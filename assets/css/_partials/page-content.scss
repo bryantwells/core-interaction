@@ -1,0 +1,137 @@
+.PageContent--general {
+    padding: var(--sm-padding);
+    max-width: var(--max-body-width);
+    line-height: 1.5;
+
+    @media (max-width: #{ $mobile-breakpoint }) {
+        max-width: unset;
+    }
+
+
+    // TITLES
+
+    h2, h3, h4, h5, h6, {
+        margin-bottom: var(--md-margin);
+        font-weight: normal;
+
+        &:not(:first-child) {
+            margin-top: var(--lg-margin);
+        }
+    }
+
+    h2 {
+        font: var(--h2-font);
+    }
+
+    h3 {
+        font: var(--h3-font);
+    }
+
+    h4, h5, h6 {
+        font: var(--h4-font);
+    }
+
+
+    // GENERAL
+
+    p, blockquote, pre, hr, dl, 
+    dd, ol, ul, figure {
+        margin-bottom: var(--md-margin);
+    }
+
+    hr {
+        border-top: 1px solid black;
+    }
+
+    a {
+        color: var(--link-color);
+        text-decoration: none;
+        border-bottom: 1px solid var(--link-color);
+
+        &:hover {
+            border-bottom: none;
+        }
+    }
+
+    blockquote {
+        padding-left: var(--sm-padding);
+        font-size: var(--sm-font-size);
+    }
+
+    // LISTS
+
+    ol {
+        -webkit-padding-start: 1rem;
+
+        li {
+            list-style: decimal;
+        }
+    }
+    
+    ul {
+        -webkit-padding-start: 1rem;
+
+        li {
+            list-style: disc;
+        }
+    }
+
+    ul, ol {
+
+        ul, ol {
+            margin-bottom: 0;
+        }
+    }
+
+
+    // TABLES
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        line-height: 1.25;
+    }
+
+    th, td {
+        border-bottom: var(--thin-border);
+        padding: .5em 2em .5em 0;
+    }
+
+    tr {
+
+        &:hover {
+            background-color: var(--secondary-color);
+        }
+
+        &:last-child {
+
+            td {
+                border-bottom: none;
+                padding-bottom: 0;
+            }
+        }
+    }
+
+
+    // CODE
+
+    code {
+        font-family: var(--secondary-font-family)
+    }
+
+    code.highlighter-rouge {
+        background-color: var(--secondary-color);
+        color: var(--code-color);
+        padding: .25em .5em;
+    }
+
+    pre.highlight {
+        background-color: var(--secondary-color);
+        color: var(--code-color);
+        padding: 1em;
+        position: relative;
+        left: calc(0rem - var(--sm-padding));
+        width: calc(100% + (var(--sm-padding) * 2));
+        line-height: 1.5;
+    }
+}

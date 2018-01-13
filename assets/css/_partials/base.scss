@@ -1,0 +1,71 @@
+// Set CSS Variables
+
+:root {
+    --mobile-breakpoint: #{ $mobile-breakpoint };
+    --max-body-width: #{ $max-body-width };
+    --base-font-size: #{ $base-font-size };
+    --sm-font-size: #{ $sm-font-size };
+    --lg-font-size: #{ $lg-font-size };
+    --h2-font: #{ $h2-font };
+    --h3-font: #{ $h3-font };
+    --h4-font: #{ $h4-font };
+    --primary-font-family: #{ $primary-font-family };
+    --secondary-font-family: #{ $secondary-font-family };
+    --primary-color: #{ $primary-color };
+    --secondary-color: #{ $secondary-color };
+    --background-color: #{ $background-color };
+    --code-color: #{ $code-color };
+    --link-color: #{ $link-color };
+    --hover-color: #{ $hover-color };
+    --sm-padding: #{ $sm-padding };
+    --md-padding: #{ $md-padding };
+    --sm-margin: #{ $sm-margin };
+    --md-margin: #{ $md-margin };
+    --lg-margin: #{ $lg-margin };
+    --thin-border: #{ $thin-border };
+}
+
+
+// Reset
+
+* { 
+    box-sizing: border-box; 
+}
+
+body, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, hr, dl, 
+dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li { 
+    list-style: none; 
+}
+
+img { 
+    max-width: 100%; 
+}
+
+// General Styles
+
+html, body {
+    height: 100%;
+}
+
+html {
+    font-family: var(--primary-font-family);
+    font-size: var(--base-font-size);
+    background-color: var(--background-color);
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+a {
+    color: unset;
+}
