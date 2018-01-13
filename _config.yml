@@ -13,8 +13,8 @@ title: Your awesome title
 email: your-email@example.com
 description: >-
   Site for Core Interaction
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" #base hostname & protocol
+baseurl: "/core-interaction" # the subpath of your site, e.g. /blog
+url: "https://bryantwells.github.io" #base hostname & protocol
 
 # Build settings
 

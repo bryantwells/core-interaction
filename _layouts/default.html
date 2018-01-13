@@ -6,8 +6,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <base href="https://bryantwells.github.io/core-interaction/">
-        <link rel="stylesheet" href="/assets/css/main.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
 
         <title>Core Interaction</title>
         
@@ -17,7 +16,7 @@
 
         <header class="Header">
 
-            <a href="/" class="Header-link">
+            <a href="{{ site.baseurl }}" class="Header-link">
 
                 <span class="Header-title">
                     <span class="Header-span">Core Interaction</span>
@@ -39,7 +38,7 @@
 
                         <li class="Nav-item {% if page.url == node.url %} is-active {% endif %}">
 
-                            <a href="{{ node.url }}" class="Nav-link">
+                            <a href="{{ site.baseurl }}{{ node.url }}" class="Nav-link">
                                 {{ node.title }}
                             </a>
 
@@ -61,7 +60,7 @@
         </main>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
-        <script src="/assets/js/main.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/main.js"></script>
         
     </body>
 
