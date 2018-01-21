@@ -1,26 +1,47 @@
-- name: John Doe
+- name: Sakshi Agarwal
   url: http://www.google.com
 
-- name: Jane Doe
+- name: Geddes Alexander II
   url: https://www.nytimes.com/
 
-- name: Neely Hoekstra
+- name: Erika Jaquez
   url: https://www.moma.org/
 
-- name: Vivan Bottoms
+- name: Souraya Jureidini
   url: https://www.newmuseum.org/
 
-- name: Damian Buscemi
+- name: Gaia Khatchadourian
   url: https://2.cargocollective.com/
 
-- name: Malika Kohan
+- name: Eli Lederberg
   url: http://www.google.com
 
-- name: Ryan Sroka
+- name: Ngar Man Natashia Lee
   url: https://www.moma.org/
 
-- name: Alysa Charbonneau
+- name: Sinong Li
   url: https://2.cargocollective.com/
 
-- name: Vivan Bottoms
+- name: Sichao Liu
   url: https://www.newmuseum.org/
+
+- name: Meredith Nelson
+  url: http://www.google.com
+
+- name: Tunchanok Patana-Anake
+  url: https://www.nytimes.com/
+
+- name: Rachel Rudolph
+  url: https://www.moma.org/
+
+- name: Savanna Sardi
+  url: https://www.newmuseum.org/
+
+- name: Avni Shivkumar
+  url: https://2.cargocollective.com/
+
+- name: Jason Decker Sloves
+  url: http://www.google.com
+
+- name: Wenpei Wang
+  url: https://www.moma.org/

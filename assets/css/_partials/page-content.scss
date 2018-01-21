@@ -11,11 +11,11 @@
     // TITLES
 
     h2, h3, h4, h5, h6, {
-        margin-bottom: var(--md-margin);
+        margin-bottom: 1rem;
         font-weight: normal;
 
         &:not(:first-child) {
-            margin-top: var(--lg-margin);
+            margin-top: var(--md-margin);
         }
     }
 
@@ -34,13 +34,21 @@
 
     // GENERAL
 
-    p, blockquote, pre, hr, dl, 
+    blockquote, hr, dl, 
     dd, ol, ul, figure {
         margin-bottom: var(--md-margin);
     }
 
+    p {
+        margin-bottom: 1rem;
+    }
+
     hr {
+        margin-top: var(--md-margin);
         border-top: 1px solid black;
+        position: relative;
+        left: calc(0rem - var(--sm-padding));
+        width: calc(100% + (var(--sm-padding) * 2));
     }
 
     a {
@@ -60,8 +68,16 @@
 
     // LISTS
 
+    ul, ol {
+        -webkit-padding-start: 2rem;
+
+        ul, ol {
+            margin-top: 1rem;
+            margin-bottom: 0;
+        }
+    }
+
     ol {
-        -webkit-padding-start: 1rem;
 
         li {
             list-style: decimal;
@@ -69,18 +85,14 @@
     }
     
     ul {
-        -webkit-padding-start: 1rem;
-
+        
         li {
             list-style: disc;
         }
     }
 
-    ul, ol {
-
-        ul, ol {
-            margin-bottom: 0;
-        }
+    li {
+        margin-bottom: 1rem;
     }
 
 
@@ -119,6 +131,10 @@
         font-family: var(--secondary-font-family)
     }
 
+    pre {
+        margin-bottom: 1rem;
+    }
+
     code.highlighter-rouge {
         background-color: var(--secondary-color);
         color: var(--code-color);
@@ -133,5 +149,14 @@
         left: calc(0rem - var(--sm-padding));
         width: calc(100% + (var(--sm-padding) * 2));
         line-height: 1.5;
+        overflow-x: scroll;
+    }
+
+    ul, ol {
+        pre.highlight {
+            left: 0;
+            width: 100%;
+            margin: 1rem 0;
+        }
     }
 }

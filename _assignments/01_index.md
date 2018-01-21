@@ -3,7 +3,7 @@ title: 'Index'
 studio: false
 lab: true
 week_assigned: 1
-week_due: 2
+week_due: 15
 ---
  
 Build an index page for yourself using the following structure:
