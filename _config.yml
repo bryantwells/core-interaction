@@ -9,18 +9,18 @@
 
 # Site Settings
 
-title: Your awesome title
-email: your-email@example.com
+title: Core Interaction Spring 2018
+email: hermonn@newschool.edu
 description: >-
-  Site for Core Interaction
-baseurl: "/core-interaction" # the subpath of your site, e.g. /blog
-url: "https://bryantwells.github.io" #base hostname & protocol
+  Core Interaction Spring 2018
+# baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://ci.vv6.co" #base hostname & protocol
 
 # Build settings
 
 sass:
   sass_dir: assets/css/_partials
-  
+
 markdown: kramdown
 plugins: [ "jekyll-feed" ]
 
