@@ -13,7 +13,7 @@ title: Core Interaction Spring 2018
 email: hermonn@newschool.edu
 description: >-
   Core Interaction Spring 2018
-# baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://ci.vv6.co" #base hostname & protocol
 
 # Build settings
