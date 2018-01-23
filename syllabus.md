@@ -38,21 +38,21 @@ This course serves as a complement to Core Studio Interaction. The assignments a
 
 | Week | Lab | Studio |
 | :--- | :-- | :----- |
-| 1 | HTML, Servers & Git  | Intro to thinking |
-| 2 | HTML & CSS | First graphic interfaces |
-| 3 | Advanced CSS I | Birth of the user |
-| 4 | Advanced CSS II | Smalltalk and Model View Controller |
+| 1 | HTML, Structure & Git  | Intro to thinking |
+| 2 | Media & CSS Layouts | First graphic interfaces |
+| 3 | Advanced CSS Layouts | Birth of the user |
+| 4 | CSS Animation & Transitions | Smalltalk and Model View Controller |
 | 5 | Responsive Practices | Early internet: 1993, Creative Commons, Slow Web |
 | 6 | Work Session | Layout and visual language |
-| 7 | Midterm Critique | Geometry and optical art |
-| 8 | Javacsript Intro I | Mechanics of reading |
-| 9 | Javscript Intro II | Typesetting: metal, and screens |
-| 10 | JS Dom Manipulation  | Type and letterforms: Basics |
-| 11 | JS Events | Font technology |
-| 12 | JS Libraries | Interaction of color |
-| 13 | Work Session | Thinking in motion |
+| 7 | Javacsript Intro I | Geometry and optical art |
+| 8 | JS Dom Manipulation | Mechanics of reading |
+| 9 | JS Events | Typesetting: metal, and screens |
+| 10 | Work Session  | Type and letterforms: Basics |
+| 11 | Work Session | Font technology |
+| 12 | JS Objects & JSON | Interaction of color |
+| 13 | JS Objects & JSON II | Thinking in motion |
 | 14 | Work Session | Prototyping: tools and techniques |
-| 15 | Final Critique | Thinking ahead: How to approach interests |
+| 15 | Work Session | Thinking ahead: How to approach interests |
 
 ## Learning Outcomes
 
