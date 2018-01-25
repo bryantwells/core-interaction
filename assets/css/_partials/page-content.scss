@@ -164,4 +164,15 @@
             margin: 1rem 0;
         }
     }
+
+    // iFRAME
+
+    iframe {
+        width: 100%;
+        height: 500px;
+    }
+
+    iframe.are-na {
+        border: 1px solid lightgrey;
+    }
 }
