@@ -10,7 +10,7 @@ week_due: 15
 Continue to build a class archive for yourself using the following structure:
 
 ~~~
-📂 site/
+📂 core-interaction/
 │
 ├─ 📄 index.html 
 │
