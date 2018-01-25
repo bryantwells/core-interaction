@@ -22,6 +22,8 @@ sass:
   sass_dir: assets/css/_partials
 
 markdown: kramdown
+highlighter: rouge
+
 plugins: [ "jekyll-feed" ]
 
 # Define data collections

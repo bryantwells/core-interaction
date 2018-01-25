@@ -21,6 +21,10 @@
 
     h2 {
         font: var(--h2-font);
+
+         &:not(:first-child) {
+            margin-top: var(--lg-margin);
+        }
     }
 
     h3 {
@@ -44,7 +48,7 @@
     }
 
     hr {
-        margin-top: var(--md-margin);
+        margin-top: var(--lg-margin);
         border-top: 1px solid black;
         position: relative;
         left: calc(0rem - var(--sm-padding));
@@ -133,6 +137,7 @@
 
     pre {
         margin-bottom: 1rem;
+        tab-size: 4;
     }
 
     code.highlighter-rouge {
@@ -144,7 +149,7 @@
     pre.highlight {
         background-color: var(--secondary-color);
         color: var(--code-color);
-        padding: 1em;
+        padding: var(--sm-padding);
         position: relative;
         left: calc(0rem - var(--sm-padding));
         width: calc(100% + (var(--sm-padding) * 2));
