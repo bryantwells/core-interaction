@@ -174,5 +174,9 @@
 
     iframe.are-na {
         border: 1px solid lightgrey;
+
+        .channel-embed__contents {
+            overflow-x: hidden;
+        }
     }
 }
