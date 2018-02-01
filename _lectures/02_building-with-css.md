@@ -2,7 +2,7 @@
 title: 'Building With CSS'
 lab: true
 studio: false
-week_posted: 1
+week_posted: 2
 ---  
 
 ### Topics covered
@@ -14,28 +14,10 @@ week_posted: 1
 5. CSS positioning  
 
 
-
-## Getting Started
-
-Build an index page for yourself and add sub-directories for Lab and Studio. use the following structure:
-
-~~~
-| index.html
-|
-| studio/
-|--- week_01.html
-|--- week_02.html
-|--- etc...
-|
-| lab/
-|--- 01_something-beautiful.html
-|--- etc...
-~~~
-
 Download the [template]({{ site.url }}/files/02_building-with-css.zip) to get started. It should look like this:  
 
 ~~~
-| 02_building-with-css/
+| 2_building-with-css/
 |--- index.html
 |--- assets/
 |--- --- css/
