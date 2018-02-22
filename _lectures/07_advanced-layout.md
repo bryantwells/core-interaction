@@ -138,3 +138,8 @@ Any CSS within the following query with only be called when the browsers width i
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ~~~
 
+
+## References
+* [Detailed CSS Positioning](https://learn.shayhowe.com/advanced-html-css/detailed-css-positioning/#position-property)
+* [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [Flexbox Froggy](http://flexboxfroggy.com/)
