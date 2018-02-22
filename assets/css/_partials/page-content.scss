@@ -44,7 +44,7 @@
     }
 
     p {
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
     }
 
     hr {
@@ -136,7 +136,7 @@
     }
 
     pre {
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
         tab-size: 4;
     }
 
@@ -151,8 +151,8 @@
         color: var(--code-color);
         padding: var(--sm-padding);
         position: relative;
-        left: calc(0rem - var(--sm-padding));
-        width: calc(100% + (var(--sm-padding) * 2));
+        left: 0;
+        width: 100%;
         line-height: 1.5;
         overflow-x: scroll;
     }
