@@ -45,7 +45,5 @@ Jason → Kiana
 * [Detailed CSS Positioning](https://learn.shayhowe.com/advanced-html-css/detailed-css-positioning/#position-property)
 * [The Shapes of CSS](https://css-tricks.com/examples/ShapesOfCSS/)
 * [CSS Rotate](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate)
-* [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-* [Flexbox Froggy](http://flexboxfroggy.com/)
 
 *Loosely derived from the series by [Rafael Rozendaal.](https://www.newrafael.com/new-website-chrome-plugin-abstract-browsing-net/)*
