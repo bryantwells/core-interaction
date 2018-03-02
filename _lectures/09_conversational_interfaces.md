@@ -29,7 +29,7 @@ Note the difference between structured and unstructured commands.
 
 
 
-## Group exercise:
+## Group Exercise:
 
 Build a conversational interface for [https://www.newschool.edu](https://www.newschool.edu) using the [joint spreadsheet](https://docs.google.com/spreadsheets/d/1Nwv4szXB1_98tQNUJKeLQiybX01VBEqOZLmTfjoLbdA/edit#gid=0). Note the cadence between computer talk machine talk and URL routing.
 
