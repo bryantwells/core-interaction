@@ -2,7 +2,7 @@
 title: 'Cultural Perspective'
 studio: true
 lab: false
-week_posted: 9
+week_posted: 7
 ---
 
 - Break into 4 groups

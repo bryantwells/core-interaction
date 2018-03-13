@@ -2,7 +2,7 @@
 title: 'Iconography'
 studio: true
 lab: false
-week_posted: 8
+week_posted: 6
 ---
 
 We will break into 2 groups. Each person should take something out of their bag and put it in on a communal table (objects like laptop, phone, comb, charger, sunglasses etc).

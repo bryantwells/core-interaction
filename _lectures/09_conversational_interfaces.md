@@ -2,7 +2,7 @@
 title: 'Conversational Interfaces'
 studio: true
 lab: false
-week_posted: 8
+week_posted: 6
 ---
 
 ### What is natural language processing?
