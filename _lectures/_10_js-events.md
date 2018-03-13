@@ -9,7 +9,6 @@ week_posted: 6
 
 ![](http://files.bryantwells.com/htmltree.gif)
 
-
 > With the object model, JavaScript gets all the power it needs to create dynamic HTML:
 >
 > * JavaScript can change all the HTML elements in the page
