@@ -2,7 +2,7 @@
 title: 'Javascript Events and the DOM'
 lab: true
 studio: false
-week_posted: 8
+week_posted: 6
 ---  
 
 ## The DOM
