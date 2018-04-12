@@ -20,6 +20,7 @@ API is the acronym for Application Programming Interface, which is a software in
 Information from a JSON API is usually accessed via a *URL Query String*. This is a method of adding search terms to a URL.
 
 A query String for an imaginary API that hosts a database of turtles may look something like this:
+
 ~~~
 api.turtles.org/turtle?type=seaTurtle&color=purple
 ~~~
@@ -38,10 +39,10 @@ You can tell it's a query string because it starts with a `?` mark and has `&`'s
 
 ### Accessing Weather Data
 
-Here is a real world example of an API request to Open Weather Map. Try it out, copy and paste the following URL in your browser and see what you get. This requires an authenticated request so just remember to replace `{{yourApiKey}}` with your actual API key.
+Here is a real world example of an API request to Open Weather Map. Try it out, copy and paste the following URL in your browser and see what you get. This requires an authenticated request so just remember to replace `{yourApiKey}` with your actual API key.
 
 ~~~
-api.openweathermap.org/data/2.5/weather?zip=11206&APPID={{yourApiKey}}
+api.openweathermap.org/data/2.5/weather?zip=11206&APPID={yourApiKey}
 ~~~
 
 Here, we are asking for information about the current weather in the are. These are our parameters:
