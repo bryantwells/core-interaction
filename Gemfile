@@ -25,3 +25,6 @@ end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+
+# Added at 2022-08-30 22:33:05 -0400 by bryant:
+gem "webrick", "~> 1.7"
