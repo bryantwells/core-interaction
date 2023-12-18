@@ -2,6 +2,6 @@
 layout: post-list
 type: assignments
 title: Assignments
-permalink: /assignments
+permalink: assignments
 group: 'nav'
 ---
